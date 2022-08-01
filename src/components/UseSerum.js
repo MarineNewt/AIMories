@@ -20,19 +20,19 @@ class UseSerum extends Component{
                             
                             {Mobile === 'true' && <img style={{display: 'inline', float: 'right',  width: '16.47vw', height: '7.3vw'}}className=" " src={banner2} alt="Collage"/> }
                             
-                            <h1 style={{fontSize: '60px', dispaly: 'inline', marginBottom: '.6vw', marginTop: '.6vw'}} className="">Alchemy Table</h1>
+                            <h1 style={{fontSize: '5vw', dispaly: 'inline', marginBottom: '.6vw', marginTop: '.6vw'}} className="">Alchemy Table</h1>
                         </div>
                         <br></br>
                         <div className="focus">
                             <div>
                                 <h2>Choose your serum:</h2>
                             </div>
-                            <div className="ml-auto mr-auto flex">
-                            <button className="nopad mr-1"><img width='175vh' height='175vh' className=" " src={serum1} alt="Collage" onClick={this.myfunction}/></button>
-                            <button className="nopad mr-1"><img width='175vh' height='175vh' className=" " src={serum2} alt="Collage" onClick={this.myfunction}/></button>
-                            <button className="nopad"><img width='175vh' height='175vh' className=" " src={serum3} alt="Collage" onClick={this.myfunction}/></button>
-                            <button className="nopad ml-1"><img width='175vh' height='175vh' className=" " src={serum4} alt="Collage" onClick={this.myfunction}/></button>
-                            <button className="nopad ml-1"><img width='175vh' height='175vh' className=" " src={serum5} alt="Collage" onClick={this.myfunction}/></button>
+                            <div className="ml-auto mr-auto flex-container">
+                            <button className="nopad mr-1 mt-1 buttonback"><img width='175vh' height='175vh' className=" " src={serum1} alt="Collage" onClick={this.myfunction}/></button>
+                            <button className="nopad mr-1 mt-1 buttonback"><img width='175vh' height='175vh' className=" " src={serum2} alt="Collage" onClick={this.myfunction}/></button>
+                            <button className="nopad mt-1 buttonback"><img width='175vh' height='175vh' className=" " src={serum3} alt="Collage" onClick={this.myfunction}/></button>
+                            <button className="nopad ml-1 mt-1 buttonback"><img width='175vh' height='175vh' className=" " src={serum4} alt="Collage" onClick={this.myfunction}/></button>
+                            <button className="nopad ml-1 mt-1 buttonback"><img width='175vh' height='175vh' className=" " src={serum5} alt="Collage" onClick={this.myfunction}/></button>
                             </div>
                         </div>
                         <br></br><br></br>

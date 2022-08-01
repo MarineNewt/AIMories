@@ -3,16 +3,17 @@ import logo from '../images/logo.jpg';
 
 class Nav extends Component{
   render() {
+    const Mobile = window.innerWidth >= 550 ? 'false' : 'true';
         return (
-        <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-1 shadow">
+        <nav style={{display: 'inline-flex'}}className="navbar navbar-dark fixed-top bg-dark p-1 shadow">
           <div
-            className="navbar-brand col-sm-3 col-md-2 mr-0"
+            className="navbar-brand"
             rel="noopener noreferrer"
           >
             Ai Mories
           </div>
-          <small className="navbar-brand col-sm-1 "> {this.props.account} </small>
-          <img src={logo} height="40" width="40"  alt="" />
+          <small style={{fontSize: '1.75vw'}} className="navbar-brand col-sm-1 "> {this.props.account} </small>
+          {Mobile === 'false' && <img src={logo} style={{height:'3vw'}}  alt="" />}
         </nav>
         )
     }
