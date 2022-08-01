@@ -1,0 +1,44 @@
+/* Styles go here */
+
+.bkgrd {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.focus{
+    background-color: #4f4b4a;
+    padding: 12px;
+    border-radius: 10px;
+    border: 5px solid lime;
+    color: white;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.centa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+    height: 100%;
+}
+
+.mintbtn{
+    font-family: Georgia, serif;
+    background-color: lime;
+    font-size: 8vh;
+    padding: 4vh;
+    margin: 6vh;
+    border-radius: 50%;
+}
+
+.nopad{
+    padding: 0;
+    margin: 0;
+}
+
